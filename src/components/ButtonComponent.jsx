@@ -1,5 +1,5 @@
 const ButtonComponent = (props) => {
-    return( <button>{props.content}</button>)
+    return( <button>{props.testo}</button>)
 }
 
 export default ButtonComponent

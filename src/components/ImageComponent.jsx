@@ -1,5 +1,5 @@
 const ImageComponent = (props) => {
-    return ( <img>{props}</img>)
+    return ( <img src = {props.img}/>)
 }
 
 export default ImageComponent

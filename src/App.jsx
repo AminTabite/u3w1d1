@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import ButtonComponent from './assets/ButtonComponent'
-import ImageComponent from './assets/ImageComponent'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import ButtonComponent from "./components/ButtonComponent";
+import ImageComponent from "./components/ImageComponent";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -19,7 +19,14 @@ function App() {
         </a>
       </div>
       <h1>Prova titolo </h1>
-      
+      <ButtonComponent testo = "Clicca qui" />
+      <ButtonComponent testo = "Autodistruzione" />
+      <ButtonComponent testo = "Cookies" />
+      <ImageComponent img ="https://place.dog/300/200" />
+<ImageComponent img = "https://placeholder.pics/svg/300x200/6B55FF-34FF53/E7FFAF-2B18FF"/>
+<ImageComponent img = "https://placeholder.pics/svg/300x200/FF1E06-D4FF77/E7FFAF-4EFFFC"/>
+
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -32,7 +39,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
