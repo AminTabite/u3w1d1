@@ -40,3 +40,42 @@
 .read-the-docs {
   color: #888;
 }
+
+.center {
+display: flex;
+justify-content: center;
+
+}
+
+
+.margine {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+.btnsize {
+
+  padding: 1rem;
+  margin: 20px;
+  border-radius: 999px;
+  gap: 5px;
+  
+
+}
+
+.red {
+  background: red;
+  color: aliceblue;
+}
+
+.white {
+background: white;
+color: black;
+
+}
+
+.yellow {
+  background-color: yellow;
+  color: black;
+}
